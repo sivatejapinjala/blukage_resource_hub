@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A personal library of creative posts and the resources collected in them.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Siva's Resource Hub">
+    <meta property="og:description" content="A personal library of creative posts and the resources collected in them.">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Siva's Resource Hub">
+    <meta name="twitter:description" content="A personal library of creative posts and the resources collected in them.">
+    <title>Siva's Resource Hub — Design Resources</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="app.js"></script>
+  </head>
+  <body data-page="home">
+    <header class="site-header">
+      <a class="wordmark" href="./" aria-label="Siva's Resource Hub home">S/RH<span>®</span></a>
+      <span class="header-note">A PERSONAL RESOURCE LIBRARY</span>
+    </header>
+    <main id="main-content">
+      <section class="intro" aria-labelledby="site-title">
+        <p class="eyebrow"><span class="status-dot"></span> COLLECTED FOR THE CURIOUS</p>
+        <h1 id="site-title">Good things<br>to <span class="accent-text">make</span> with.</h1>
+        <p class="intro-copy">A growing collection of things I find useful, interesting, and worth sharing.</p>
+      </section>
+      <section class="category-index" aria-labelledby="categories-title">
+        <div class="section-heading"><p class="eyebrow">THE LIBRARY</p><h2 id="categories-title">Explore by category</h2></div>
+        <nav id="category-links" class="category-links" aria-label="Resource categories"></nav>
+      </section>
+      <section class="latest-section" aria-labelledby="latest-title">
+        <div class="section-heading"><p class="eyebrow">RECENTLY COLLECTED</p><h2 id="latest-title">Latest posts</h2></div>
+        <div id="latest-posts" class="post-list"></div>
+      </section>
+    </main>
+    <footer class="site-footer"><span>MADE TO BE SHARED.</span><span>© <span id="year"></span> SIVA</span></footer>
+  </body>
+</html>
