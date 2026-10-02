@@ -47,7 +47,7 @@ export const posts = [
   {
     id: "branding-articles",
     title: "Branding Articles to Save",
-    category: "Articles",
+    category: "articles",
     description: "A few thoughtful reads about visual identity, brand systems, and distinctive design.",
     resources: [
       {
@@ -67,7 +67,7 @@ export const posts = [
   {
     id: "typography-resources",
     title: "Typography & Type Pairing Reads",
-    category: "Articles",
+    category: "articles",
     description: "Helpful starting points for learning about type, choosing fonts, and using typography with intention.",
     resources: [
       {
@@ -87,7 +87,7 @@ export const posts = [
   {
     id: "design-tools",
     title: "Quick Tools for Design Work",
-    category: "Tools",
+    category: "tools",
     description: "A couple of handy browser based tools for prototyping and building color palettes.",
     resources: [
       {
@@ -107,7 +107,7 @@ export const posts = [
   {
     id: "design-youtube",
     title: "Design Videos to Watch",
-    category: "YouTube",
+    category: "youtube",
     description: "Video search links for practical lessons on graphic design and visual identity.",
     resources: [
       {
@@ -127,7 +127,7 @@ export const posts = [
   {
     id: "design-resources",
     title: "Places to Find Design Inspiration",
-    category: "Other",
+    category: "other",
     description: "Explore visual work and collect references from creative communities.",
     resources: [
       {
