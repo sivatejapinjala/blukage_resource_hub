@@ -37,6 +37,11 @@ export const categories = [
     description: "Videos and channels worth watching.",
   },
   {
+  id: "websites",
+  name: "Websites",
+  description: "Websites worth bookmarking for design and branding."
+  },
+  {
     id: "other",
     name: "Other",
     description: "Other creative resources I want to keep close.",
@@ -143,5 +148,31 @@ export const posts = [
         cta: "Explore Channels"
       }
     ]
-  }
+  },
+  {
+  id: "3-branding-websites",
+  category: "websites",
+  title: "3 Websites to Bookmark If You're Getting Into Branding",
+  description: "Three websites worth bookmarking for typography, brand identities, and real-world branding references.",
+  resources: [
+    {
+      title: "Fonts In Use",
+      source: "Fonts In Use",
+      url: "https://fontsinuse.com/",
+      cta: "Visit Website"
+    },
+    {
+      title: "Brand New",
+      source: "UnderConsideration",
+      url: "https://www.underconsideration.com/brandnew/",
+      cta: "Visit Website"
+    },
+    {
+      title: "The Brand Identity",
+      source: "The Brand Identity",
+      url: "https://the-brandidentity.com/",
+      cta: "Visit Website"
+    }
+  ]
+},
 ];
