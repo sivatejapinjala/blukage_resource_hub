@@ -47,7 +47,12 @@ function renderHome() {
 }
 
 function renderCategory() {
-  const categoryId = decodeURIComponent(window.location.pathname.split("/").filter(Boolean)[0] || "");
+  const appBasePath = new URL(".", import.meta.url).pathname;
+  const pagePath = window.location.pathname;
+  const sitePath = pagePath.startsWith(appBasePath)
+    ? pagePath.slice(appBasePath.length)
+    : pagePath.replace(/^\/+/, "");
+  const categoryId = decodeURIComponent(sitePath.split("/").filter(Boolean)[0] || "");
   const category = categories.find((item) => item.id === categoryId);
   if (!category) return;
 
